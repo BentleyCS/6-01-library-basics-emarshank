@@ -1,7 +1,7 @@
 import main as hw
 
 def test_process_expenses():
-    assert hw.process_expenses([1, 2]) == [1.15, ]
+    assert hw.process_expenses([1, 2]) == [1.15, 2.30]
 
 def test_analyze_scores():
     assert hw.analyze_scores([3,4,5]) == 5, 4
