@@ -1,4 +1,4 @@
-import main as hw
+import CSP_6_01_Library_Basics as hw
 
 def test_process_expenses():
     assert hw.process_expenses([1, 2]) == [1.15, 2.30]
@@ -15,9 +15,9 @@ def test_identify_outliers():
 def test_search_and_report():
     assert hw.search_and_report(["apple", "zygote", "banana","abacus"], "banana") == 3
     
-test_process_expenses()
-test_analyze_scores()
-test_sanitize_usernames()
-test_identify_outliers()
-test_search_and_report()
+# test_process_expenses()
+# test_analyze_scores()
+# test_sanitize_usernames()
+# test_identify_outliers()
+# test_search_and_report()
     
